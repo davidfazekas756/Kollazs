@@ -1,0 +1,11 @@
+body{
+    text-align: center;
+}
+    button{
+      border-radius: 10px;
+      background-color: aqua;
+      
+    }
+    a{
+      text-decoration: none;
+    }
