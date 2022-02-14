@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Űrlap</title>
+    <link rel="stylesheet" href="pizza.css">
+</head>
+
+<body style="background-color: bisque;">
+    <h1>Pizza rendelés:</h1>
+    <h3 style="color: red;">Rendelhető pizzák:</h3>
+
+   
+    
+    <input type='radio' name='gender'> kicsi (30cm)
+    <input type='radio' name='gender'> nagy (50cm)
+<fieldset>
+    <h3 style="color: red;" >Feltétek:</h3>
+    <select title='Válassz úticélt!'>
+        <option disabled=disable selected>Sima feltétek: </option>
+    
+        <optgroup label='Sima'>
+            <option>Sonka</option>
+            <option>Szalámi</option>
+        </optgroup>
+    
+    
+    <input type='range'>
+       
+    </select>
+</fieldset>
+<fieldset>
+    <h3 style="color: red;" >Vegán feltétek:</h3>
+    <select title='Válassz úticélt!'>
+        <option disabled=disable selected>Vegán </option>
+    
+        <optgroup label='Vegán feltétek'>
+            <option>Szárított paradicsom</option>
+            <option>Brokkoli</option>
+            <option>Karfiol</option>
+            <input type='range'>
+        </optgroup>
+    </select>
+</fieldset>
+<fieldset>
+<h3 style="color: red;">Név:</h3>
+
+<input type='text'>
+
+<h3 style="color: red;">Rendelési cím:</h3>
+
+<input type='text'>
+</fieldset>
+
+</body>
+
+</html>
